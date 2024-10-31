@@ -1,0 +1,32 @@
+/* Companies.css */
+.companies-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .companies-container h2{
+    font-size: 2rem;
+    color: #2b6ef2;
+  }
+  .companies-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .company-card {
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .company-logo {
+    width: 7rem;
+    height: 5rem;
+    margin-bottom: 10px;
+  }
+  

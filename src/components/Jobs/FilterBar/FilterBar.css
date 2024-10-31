@@ -1,0 +1,104 @@
+/* Main filter bar styling */
+.filter-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 90vw;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    flex-wrap: wrap;
+}
+
+/* Individual filter sections */
+.filter-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Titles for each filter section */
+.filter-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Office type radio buttons */
+.filter-options label {
+    margin-right: 15px;
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.filter-options input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Experience dropdown */
+.filter-select {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Salary slider styling */
+.salary-slider {
+    width: 150px;
+    margin-top: 8px;
+}
+
+.salary-labels {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 5px;
+}
+
+.salary-label {
+    font-size: 12px;
+    color: #555;
+}
+
+.salary-label.active {
+    color: #4c52e3;
+    font-weight: bold;
+}
+
+/* Action buttons styling */
+.filter-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.clear-button, .apply-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.clear-button {
+    color: #4c52e3;
+    background-color: transparent;
+}
+
+.apply-button {
+    color: #fff;
+    background-color: #4c52e3;
+    transition: background 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #6c7ff2;
+}

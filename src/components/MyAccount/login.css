@@ -1,0 +1,126 @@
+/* .Login-main-div{
+  margin: auto;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container{
+  margin: auto;
+  height: 50vh;
+  border: 2px solid black;
+  padding: 10px;
+  width: 50vw;
+  text-align: center;
+}
+
+
+.login-container form{
+  display: flex;
+  flex-direction: column;
+}
+.form-group {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+} */
+
+
+/* Reset some default styles for the body */
+/* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* Main container for the login page */
+.Login-main-div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: rgba(240, 240, 240, 0.8); /* Light gray background */
+}
+
+/* Container for the login form */
+.login-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Fixed width for the form */
+}
+
+/* Styling the heading */
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="password"] {
+  width: 100%; /* Full width */
+  padding: 0.75rem; /* Padding for better spacing */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+/* Button styling */
+.login-button {
+  width: 100%; /* Full width */
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+.login-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Signup link styling */
+.signup-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Styling the link */
+.signup-link div {
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* Link hover effect */
+.signup-link div:hover {
+  color: #0056b3; /* Darker blue on hover */
+}

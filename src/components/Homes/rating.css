@@ -1,0 +1,19 @@
+/* RatingContainer.css */
+.rating-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  width: 24px;
+  height: 24px;
+  fill: #ccc;
+  cursor: pointer;
+  transition: fill 0.3s ease;
+}
+
+.star.filled {
+  fill: #ffd700;
+}

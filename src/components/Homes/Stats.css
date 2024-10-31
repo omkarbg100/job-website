@@ -1,0 +1,29 @@
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .stat-box {
+    text-align: center;
+  }
+  
+  .count {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .label {
+    margin: 0;
+    font-size: 1em;
+  }
+  
+  .underline {
+    width: 50%;
+    height: 2px;
+    background-color: #90CAF9; /* Light blue underline color */
+    margin: 8px auto 0;
+  }
+  

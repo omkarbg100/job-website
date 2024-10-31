@@ -1,0 +1,81 @@
+/* Reset some default styles for the body */
+/* body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Registration form container styling */
+.registration-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 600px; /* Maximum width of the registration form */
+    margin: 2rem auto; /* Centered horizontally */
+    padding: 2rem;
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading styling */
+.registration-container h2 {
+    text-align: center; /* Centered heading */
+    margin-bottom: 1.5rem; /* Space below the heading */
+}
+
+/* Individual form group styling */
+.form-group {
+    margin-bottom: 1.5rem; /* Space between form groups */
+}
+
+/* Label styling */
+label {
+    display: block; /* Labels are block elements */
+    margin-bottom: 0.5rem; /* Space below labels */
+    font-weight: 600; /* Bold labels */
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="file"] {
+    width: 100%; /* Full width of the container */
+    padding: 0.75rem; /* Padding for inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+/* Button styling */
+.register-button {
+    width: 100%; /* Full width */
+    padding: 0.75rem; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+.register-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Success message styling */
+.success-message {
+    color: green;
+    text-align: center;
+    margin-bottom: 1rem;
+}

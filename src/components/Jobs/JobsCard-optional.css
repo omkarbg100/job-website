@@ -1,0 +1,39 @@
+/* Card styling */
+.card {
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Prevent content from overflowing */
+    transition: transform 0.3s; /* Smooth transform effect */
+    width: 35vw; /* Maximum width of the card */
+    margin: auto; /* Space around the card */
+    margin-bottom: 1rem;
+    background-color: white; /* White background */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Card image styling */
+.card-image {
+    width: 15rem; /* Full width */
+    height: 8rem; /* Maintain aspect ratio */
+}
+
+/* Card content styling */
+.card-content {
+    padding: 1rem; /* Padding inside the card */
+}
+
+/* Card title styling */
+.card-title {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5rem; /* Font size for the title */
+}
+
+/* Card description styling */
+.card-description {
+    color: #555; /* Dark grey text */
+    margin-top: 0.5rem; /* Space above the description */
+}

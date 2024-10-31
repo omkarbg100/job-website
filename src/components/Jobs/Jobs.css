@@ -1,0 +1,122 @@
+.Main-Container h2{
+    font-size: 3rem;
+    color: #2b6ef2;
+    margin: 3rem;
+    text-align: center;
+}
+.app-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    margin:  auto;
+}
+.app-container div{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.Job_info_page{
+  width: 90vw;
+  margin: auto;
+}
+.Returning-div{
+  display: flex;
+}
+.Returning-div span{
+  float: left;
+  padding: 1rem;
+  border: 1px solid blue;
+  background-color: #2b6ef2;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+  /* new css for the new job-details section  */
+
+  /* Main container for the job details */
+.job-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: 90vw;
+  margin: auto;
+}
+
+/* Company name styling */
+.company-name {
+  color: #4c52e3;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Job description section styling */
+.job-description-section {
+  max-width: 60vw;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Job details card styling */
+.job-details-card {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+   max-width: 30vw; 
+  background-color: #fff;
+}
+
+.Job-details-heading{
+  font-size: 3rem;
+  text-align: center;
+  color: #2b6ef2;
+}
+
+.job-details-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+
+/* Contact information section */
+.job-details-card p {
+  font-size: 15px;
+  margin: 8px 0;
+}
+
+/* Horizontal line in the card */
+.job-details-card hr {
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+  margin: 10px 0;
+}
+
+/* Apply button styling */
+.apply-button {
+  background: linear-gradient(90deg, #4c52e3, #6c7ff2);
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+.apply-button:hover {
+  background: linear-gradient(90deg, #6c7ff2, #4c52e3);
+}
