@@ -2,19 +2,35 @@
 
 Welcome to our Job Portal, a user-friendly platform designed to simplify your job search and application process. Here, job seekers can explore numerous job opportunities, create personalized resumes, and connect with potential employers. 
 
+<div align="center">
+<img  src="pic/home.jpeg">
+</div>
+
 ## Features
 
 ### 1. **Job Application**
    - Apply for jobs directly through our platform. Once you find a job that fits, simply submit your application in a few clicks.
+     <div align="center">
+<img  src="pic/job-apply.jpeg">
+</div>
 
 ### 2. **Job Search & Sorting**
    - Easily search and sort job listings based on your preferences. Filters and sorting options allow you to find the most relevant opportunities.
+     <div align="center">
+<img  src="pic/job.jpeg">
+</div>
 
 ### 3. **User Registration**
    - Register an account to start applying for jobs. A registered account gives you access to a personalized dashboard to manage applications and resumes.
+     <div align="center">
+<img  src="pic/profile.jpeg">
+</div>
 
 ### 4. **Resume Builder**
    - Create, edit, and manage your resume within our platform. No external software is needed; design a resume that highlights your skills and experience.
+     <div align="center">
+<img  src="pic/resume.jpeg">
+</div>
 
 ### 5. **Website Rating**
    - We value user feedback! Rate our platform and let us know how we can improve to better serve your job search needs.
