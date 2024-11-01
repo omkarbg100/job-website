@@ -55,8 +55,6 @@ To start using our Job Portal:
 ## Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript, ReactJS
-- **Backend**: (Specify the backend technologies if applicable, e.g., Node.js, Express)
-- **Database**: (Specify your database, e.g., MongoDB, MySQL)
   
 We’re constantly updating and adding features to make job searching as effective and efficient as possible. 
 
