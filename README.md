@@ -1,5 +1,7 @@
 # Job Portal Website
 
+### Live site Link: [Job-portal](https://job-portal-website-omkar.netlify.app/)
+
 Welcome to our Job Portal, a user-friendly platform designed to simplify your job search and application process. Here, job seekers can explore numerous job opportunities, create personalized resumes, and connect with potential employers. 
 
 <div align="center">
